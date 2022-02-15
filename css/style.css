@@ -1,3 +1,13 @@
 .btn_search{
     width: 1.5rem;
 }
+
+.container{
+    border: 1px solid red;
+    width: 800px;
+    height: 600px;
+}
+
+section{
+    margin-top: 100px;
+}
