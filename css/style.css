@@ -34,6 +34,11 @@ header img{
     width: 250px;
 }
 
+.jumbotron1-gallery img{
+    width: 100%;
+    border-radius: 15px;
+}
+
 .jumbotron1 .btn{
     border-radius: 2rem;
     background-color: #cd3d0f;
@@ -45,7 +50,16 @@ header img{
     justify-content: center;
 }
 
-.jumbotron1-gallery img{
+.thumb {
     width: 100%;
-    border-radius: 15px;
+    filter: opacity(70%);
+    visibility: visible;
+}
+
+.ps5-devices .btn{
+    border-radius: 25px;
+}
+
+.ps5-devices .device1{
+    width: 100%;
 }
