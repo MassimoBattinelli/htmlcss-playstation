@@ -63,3 +63,22 @@ header img{
 .ps5-devices .device1{
     width: 100%;
 }
+
+.takes-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.takes-logo{
+    width: 200px;
+}
+
+.text-tak{
+    color: white;
+}
+
+.games {
+    background-color: black;
+    color: white;
+}
