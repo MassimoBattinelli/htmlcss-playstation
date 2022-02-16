@@ -1,13 +1,51 @@
-.btn_search{
-    width: 1.5rem;
+body{
+    height: 9000px;
 }
 
-.container{
-    border: 1px solid red;
-    width: 800px;
-    height: 600px;
+header{
+    background-color: black;
 }
 
-section{
+header img{
+    width: 60px;
+}
+
+#nav-fixed-top{
+    top: 25px;
+    background-color: white;
+}
+
+.navbar-toggler{
+    border: 1px solid black;
+}
+
+.jumbotron1{
     margin-top: 100px;
+    height: 550px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position-y: top;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron1 img {
+    width: 250px;
+}
+
+.jumbotron1 .btn{
+    border-radius: 2rem;
+    background-color: #cd3d0f;
+    text-decoration: none;
+}
+
+.jumbotron1-gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron1-gallery img{
+    width: 100%;
+    border-radius: 15px;
 }
